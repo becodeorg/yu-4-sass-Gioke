@@ -1,11 +1,7 @@
+$primary-color: #066163;
+$primary-background-color: #22577E;
+$heading-color: #733C3C;
+$code-background-color: #E9D5DA;
 
+@use "_general";
 
-
-
-@import "styles.scss";
-
-
-
-body {
-    background-color: burlywood;
-}

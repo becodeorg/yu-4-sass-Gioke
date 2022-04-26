@@ -8,10 +8,10 @@ $myPadding: 16px;
 
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748b3;
+    color: $primary-color;
     margin: 0px;
     padding: 0px;
-    background-color: #000;
+    background-color: $primary-background-color
     background-image: radial-gradient(
         #fff,
         rgba(255, 255, 255, 0.2) 2px,
@@ -30,11 +30,11 @@ body {
 
     h1 {
         text-align: center;
-        color: #6b8eff;
+        color: $heading-color;
       }
 
     h2 {
-        color: #6b8eff;
+        color: $heading-color;
     }
 
     h6 {
@@ -42,7 +42,7 @@ body {
         font-size: 2em;
         padding: $myPadding*2;
         margin-bottom: 0px;
-        color: #6b8eff;
+        color: $heading-color;
       }
 
       article {
@@ -64,9 +64,9 @@ body {
                 flex-basis: 100%;
             }
         pre {
-            background: #000;
+            background: $primary-background-color
             border: 1px solid #ddd;
-            color: #666;
+            color: $code-background-color
             font-family: monospace;
             font-size: 15px;
             line-height: 1.6;
@@ -91,8 +91,8 @@ body {
         border: 1px solid #ccc;
         padding: $myPadding;
         margin: 16px;
-        color: #2748b3;
-        background-color: #000;
+        color: $primary-color;
+        background-color: $primary-background-color
     }
     
     .success {

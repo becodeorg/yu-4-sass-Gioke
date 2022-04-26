@@ -1,5 +1,6 @@
-@import "styles";
+$primary-color: #B22727;
+$primary-background-color: #95D1CC;
+$heading-color: #82A284;
+$code-background-color: #E9D5DA;
 
-body{
-    background-color: cornflowerblue;
-}
+@use "_general"
