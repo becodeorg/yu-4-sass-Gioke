@@ -1,6 +1,17 @@
-$primary-color: #B22727;
-$primary-background-color: #95D1CC;
-$heading-color: #82A284;
-$code-background-color: #E9D5DA;
+@use "color" as *;
+@use "styles";
 
-@use "_general"
+
+body {
+color: $primary-red-color;
+background-color:  $primary-background-color;
+
+article {
+    pre {
+        color: $code-background-color;
+     }
+} 
+}
+
+
+

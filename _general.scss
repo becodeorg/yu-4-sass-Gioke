@@ -5,18 +5,19 @@
   }
 
 $myPadding: 16px;
+$primary-color: darkgray;
+$primary-background-color: black;
+$heading-color: #002e00;
+$code-background-color: #500314;
+
 
 body {
     font: 100% "Space Mono", monospace;
     color: $primary-color;
     margin: 0px;
     padding: 0px;
-    background-color: $primary-background-color
-    background-image: radial-gradient(
-        #fff,
-        rgba(255, 255, 255, 0.2) 2px,
-        transparent 40px
-      ),
+    background-color: $primary-background-color;
+    background-image: radial-gradient(#fff,rgba(255, 255, 255, 0.2) 2px,transparent 40px),
       radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
       radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
       radial-gradient(
@@ -52,7 +53,7 @@ body {
             flex-grow: 1;
             flex-basis: 45%;
             border: 1px silver solid;
-            @include box-shadow()
+            @include box-shadow();
             padding: $myPadding;
             margin: 16px;
             clear: both;
@@ -64,9 +65,9 @@ body {
                 flex-basis: 100%;
             }
         pre {
-            background: $primary-background-color
+            background: $primary-background-color;
             border: 1px solid #ddd;
-            color: $code-background-color
+            color: $code-background-color;
             font-family: monospace;
             font-size: 15px;
             line-height: 1.6;
@@ -92,7 +93,7 @@ body {
         padding: $myPadding;
         margin: 16px;
         color: $primary-color;
-        background-color: $primary-background-color
+        background-color: $primary-background-color;
     }
     
     .success {
